@@ -40,7 +40,7 @@
 #include <plat/system.h>
 
 
-#define SUNXI_I2C_DEBUG
+// #define SUNXI_I2C_DEBUG
 
 #ifdef SUNXI_I2C_DEBUG
 #define i2c_dbg(x...)   printk(x)
